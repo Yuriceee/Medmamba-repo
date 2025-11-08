@@ -1,0 +1,85 @@
+# Dataset directories
+data/
+medmnist_data/
+*.npz
+
+# Model weights and checkpoints - ignore all files except .py
+finetuned_weights/*
+!finetuned_weights/**/*.py
+outputs/*
+!outputs/**/*.py
+pretrain_weights/*
+!pretrain_weights/**/*.py
+result_batch/*
+!result_batch/**/*.py
+
+# Weight and checkpoint files
+*.pth
+*.pt
+*.ckpt
+
+# Result files
+*.json
+*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+tensorboard/
+
+# Result files (optional - uncomment if you don't want to track results)
+# result_batch/*.json
+# result_batch/*.csv
+# result_batch/confusion_matrices/*.png
